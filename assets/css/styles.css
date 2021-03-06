@@ -25,6 +25,7 @@ body {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-item {
@@ -32,6 +33,7 @@ body {
   text-align: justify;
   position: relative;
   margin: 20px;
+  width: 25%;
 }
 
 .card-item h2 {
@@ -65,4 +67,16 @@ body {
 }
 
 .title__footer {
+}
+
+@media screen and (max-width: 992px) {
+  .card-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-item {
+    width: 100%;
+  }
 }
