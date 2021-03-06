@@ -34,8 +34,16 @@ body {
 
 .card-item h2 {
   position: absolute;
-  border: 1px solid red;
+  top: 0px;
+  left: 50%;
+  border: 2px solid #a1a1a1;
+  border-radius: 5px;
   margin: 0px;
+  color: #fa66d5;
+  padding: 5px 10px;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background: #0e0e0e;
 }
 
 .info__card {
