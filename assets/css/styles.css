@@ -31,6 +31,7 @@ body {
   border: 2px dashed #a1a1a1;
   text-align: justify;
   position: relative;
+  margin: 20px;
 }
 
 .card-item h2 {
@@ -49,10 +50,12 @@ body {
 
 .info__card {
   color: #fa66d5;
+  padding-top: 40px;
 }
 
 .code-container {
   padding: 10px;
+  padding-bottom: 40px;
 }
 
 .code-snippet {
