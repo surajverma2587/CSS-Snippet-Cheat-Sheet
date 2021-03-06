@@ -35,5 +35,11 @@ body {
   color: #fa66d5;
 }
 
+.code-snippet {
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #aa40a5, #cf80cb);
+  padding: 10px;
+}
+
 .title__footer {
 }
