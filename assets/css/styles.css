@@ -3,6 +3,7 @@ body {
   margin: 0px;
   height: 100vh;
   line-height: 20px;
+  box-sizing: border-box;
 
   /* TODO: Remove this later */
   color: #fff;
@@ -27,12 +28,23 @@ body {
 
 .card-item {
   border: 2px dashed #a1a1a1;
-  padding: 10px;
   text-align: justify;
+  position: relative;
+}
+
+.card-item h2 {
+  position: absolute;
+  border: 1px solid red;
+  margin: 0px;
 }
 
 .info__card {
   color: #fa66d5;
+  padding: 10px;
+}
+
+.code-container {
+  padding: 10px;
 }
 
 .code-snippet {
